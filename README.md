@@ -1,12 +1,3 @@
-# React + Vite
+Redux Based TodoList
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This is a Todo List application built using React and Redux Toolkit for robust state management. It allows users to add, complete, and delete tasks, with real-time updates powered by Redux. All tasks are stored in localStorage, so your todos persist even after refreshing the page. The app also features a dynamic filtering system to view all, completed, or incomplete tasks based on user preference. Tailwind CSS is used for styling the UI, and the project demonstrates a clean architecture with reusable components and clear separation of concerns.
